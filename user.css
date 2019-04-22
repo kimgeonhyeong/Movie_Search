@@ -1,0 +1,81 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color:#f5f6f7;
+
+    background-size: cover;
+    margin: 0;
+}
+p{
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    margin-bottom: 50px;
+    margin-left: 10px;
+}
+.flag_box{
+    background-color: whitesmoke;
+    height: 160px;
+    width: 100%;
+    margin: auto;
+    margin-top: calc(18%);
+    padding-top: 45px;
+    opacity: 0.5;
+    
+
+}
+.sec1{
+    height: max-content;
+  }
+  table{
+    margin: auto;
+    text-align: center;
+    border: 1px solid var(--font-black-color);
+    border-collapse: collapse;
+    font-size: 20px;
+  }
+  thead{
+      background-color: gray;
+      color: white;
+  }
+  th{
+    border: 1px solid var(--font-black-color);;
+    color : var(--font-black-color);
+    padding: 15px 140px;
+  }
+  td{
+    border: 1px solid var(--font-black-color);;
+    padding: 10px;
+    color : var(--font-black-color);
+  }
+  .sec1 p{
+    color: var(--font-black-color);
+  }
+  .inputbox{
+    margin-left: 47px;
+    margin-bottom: 5px;
+    display: flex;
+  }
+  .textbox{
+    background-color: white;
+    width: 300px;
+    height: 35px;
+    border: solid 1px #dadada; 
+  }
+  .inputtext{
+    margin: 4px 12px;
+    width: 276px;
+    border: 0;
+    height: 25px;
+  }
+  .button{
+    background-color: #1fbc02;
+    cursor: pointer;
+    border: 0;
+    color: white;
+    margin-left: 3px;
+    width: 60px;
+    border-radius:0.5em;
+  }
